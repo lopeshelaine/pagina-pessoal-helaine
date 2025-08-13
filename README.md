@@ -1,22 +1,102 @@
-# 📌 Página Pessoal - Helaine Lopes
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal - Helaine Lopes</title>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1 align="center"><strong>Helaine Carla Pinheiro Lopes</strong></h1>
+        <hr>
+        <h2 align="center">Bem-vindo à minha página pessoal!</h2>
+        <hr>
+    </header>
 
-Página HTML simples criada para apresentar meu perfil e habilidades.
+    <!-- Conteúdo principal -->
+    <main>
 
-## 📋 Conteúdo
-- Sobre mim
-- Meus hobbies
-- Redes sociais
-- Formulário de contato
+        <!-- Seção Sobre Mim -->
+        <section>
+            <h3>Sobre mim:</h3>
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGMGuFIv2AzZw/profile-displayphoto-scale_200_200/B4DZiWtDHSHYAc-/0/1754875049165?e=1757548800&v=beta&t=GBsOXY03wV5PXiVXgcc9Gr2O6b8yTVlMkQD8lD-gRt4" 
+                 alt="Foto de Helaine Lopes" 
+                 width="200" 
+                 height="200">
+            <p>Olá, sou Helaine Lopes, bolsista em Front-End pelo Bolsa Futuro Digital e estudante de Técnico em Informática para Internet na ETEMB.<br>Também atuo como freelancer em design gráfico, unindo criatividade e programação para ampliar meus conhecimentos em tecnologia.</p>
+        </section>
 
-## 🛠 Tecnologias
-- HTML puro
+        <!-- Seção Hobbies -->
+        <section>
+            <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Crochê</li>
+                <li>Assistir filmes e séries</li>
+                <li>Cozinhar</li>
+            </ul>
+        </section>
 
-## ▶ Como usar
-1. Baixe os arquivos
-2. Abra `index.html` no navegador
+        <!-- Seção Redes Sociais -->
+        <section>
+            <h2>Minhas Redes Sociais</h2>
+            <p>Você pode me encontrar nas seguintes redes sociais:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/helaine-lopes-a16b1a24b/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/helaineclopes/?hl=pt" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
 
-## 📞 Contato
-- LinkedIn: [Helaine Lopes](https://www.linkedin.com/in/helaine-lopes-a16b1a24b/)
+        <!-- Seção Horários ou Disciplinas -->
+        <section>
+            <h2>Meus Horários Livres</h2>
+            <table border="2" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Dia da Semana</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Domingo</td><td>18:00 até 21:00</td></tr>
+                    <tr><td>Segunda-feira</td><td>14:00 até 21:00</td></tr>
+                    <tr><td>Terça-feira</td><td>14:00 até 21:00</td></tr>
+                    <tr><td>Quarta-feira</td><td>13:00 até 21:00</td></tr>
+                    <tr><td>Quinta-feira</td><td>14:00 até 21:00</td></tr>
+                    <tr><td>Sexta-feira</td><td>17:00 até 21:00</td></tr>
+                    <tr><td>Sábado</td><td>14:00 até 21:00</td></tr>
+                </tbody>
+            </table>
+        </section>
 
+        <!-- Formulário de Contato -->
+        <section>
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <table cellpadding="5">
+                    <tr>
+                        <td><label for="name">Nome:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><label for="message">Mensagem:</label></td>
+                        <td><textarea id="message" name="message" rows="4" cols="40" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit" value="Enviar"></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
 
-Feito com ❤️ por Helaine Lopes
+    <!-- Rodapé -->
+    <footer align="center">
+        <p>&copy; 2025 Helaine Carla Pinheiro Lopes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
